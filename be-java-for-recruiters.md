@@ -1,53 +1,10 @@
 # Backend Java for Recruiters
 
-### "Unlocking the Path to Exceptional Candidates: A Brief Guide to Enhance Your Talent Search in Backend Java"
+> "Unlocking the path to exceptional candidates: A brief guide to enhance your talent search in Backend Java"
 
 ## Table of Contents
 
-<!-- TOC -->
-* [Backend Java for Recruiters](#backend-java-for-recruiters)
-    * ["Unlocking the Path to Exceptional Candidates: A Brief Guide to Enhance Your Talent Search in Backend Java"](#-unlocking-the-path-to-exceptional-candidates--a-brief-guide-to-enhance-your-talent-search-in-backend-java-)
-  * [Table of Contents](#table-of-contents)
-  * [Introduction](#introduction)
-  * [Tech stack](#tech-stack)
-    * [Core Java](#core-java)
-      * [LTSs versions](#ltss-versions)
-        * [Java 8](#java-8)
-        * [Java 11](#java-11)
-        * [Java 17](#java-17)
-    * [Dependency management / Build tools (Maven)](#dependency-management--build-tools--maven-)
-    * [Spring framework](#spring-framework)
-    * [Web Services](#web-services)
-    * [Databases and ORM](#databases-and-orm)
-    * [Message Queue Systems](#message-queue-systems)
-    * [Testing](#testing)
-      * [TDD](#tdd)
-      * [BDD](#bdd)
-    * [Version control (Git)](#version-control--git-)
-    * [DevOps](#devops)
-      * [Containerization](#containerization)
-      * [Orchestration](#orchestration)
-      * [CI/CD](#cicd)
-    * [Agile methodologies](#agile-methodologies)
-    * [Troubleshooting and Debugging](#troubleshooting-and-debugging)
-    * [Software architecture](#software-architecture)
-      * [Hexagonal architecture](#hexagonal-architecture)
-      * [Clean architecture](#clean-architecture)
-      * [Onion architecture](#onion-architecture)
-      * [Microservices architecture](#microservices-architecture)
-      * [Event-Driven architecture (EDA)](#event-driven-architecture--eda-)
-      * [Service-Oriented architecture](#service-oriented-architecture)
-      * [DDD](#ddd)
-      * [Event Sourcing and CQRS](#event-sourcing-and-cqrs)
-  * [Cheat sheet](#cheat-sheet)
-    * [Java versions](#java-versions)
-    * [Skills](#skills)
-  * [Responsibilities](#responsibilities)
-    * [Junior](#junior)
-    * [Mid](#mid)
-    * [Senior](#senior)
-  * [Conclusion](#conclusion)
-<!-- TOC -->
+
 
 ## Introduction
 
@@ -85,8 +42,11 @@ Brought significant language enhancements and introduced modern programming para
 
 ##### Java 11
 
+JPMS
+
 Introduced some language improvements and new features, such as local variable type inference. While not as revolutionary as Java 8, it's still beneficial for candidates to be aware of these changes.
 
+    * Introduction of the Java Platform Module System (JPMS) for modularizing Java applications.
     * Local Variable Type Inference (var): Enhanced type inference for local variables, reducing verbosity in code.
     * HTTP Client API: A standardized HTTP client API, replacing the deprecated HttpURLConnection.
     * Flight Recorder: A low-overhead performance monitoring tool for profiling and analyzing Java applications.
@@ -99,6 +59,10 @@ Brings important language enhancements, particularly sealed classes and pattern 
     * Sealed Classes: Enhanced class and interface modifiers to restrict subclasses and interfaces.
     * Pattern Matching for Switch: Simplifies code by allowing pattern matching directly in switch statements.
     * Foreign Function & Memory API: Enables interoperability with native code and direct memory access.
+
+### Good practices
+
+add be-general-guidelines here
 
 ### Dependency management / Build tools (Maven)
 
@@ -122,7 +86,7 @@ Brings important language enhancements, particularly sealed classes and pattern 
     * Spring Boot: A framework for rapidly developing and deploying standalone Spring applications.
     * Spring MVC: A web framework for building robust and scalable web applications.
     * Spring Data: A module that simplifies database access and supports various data storage technologies.
-    *  Spring Security: A powerful security framework for securing applications and managing authentication and authorization.
+    * Spring Security: A powerful security framework for securing applications and managing authentication and authorization.
     * Spring Integration: A module for building integration solutions and messaging-based applications.
     * Spring Cloud: A set of tools and libraries for building distributed systems and microservices architectures.
 
@@ -324,33 +288,60 @@ Here you will find a list of the different tools or equivalencies for each skill
 
 ### Skills
 
-| Skills                        | Tools or Equivalencies                    |
-|-------------------------------|-------------------------------------------|
-| Core Java                     | -                                         |
-| Java Frameworks               | Spring Boot                               |
-| Web Development               | Servlets, JSP, JSF                        |
-| Web Services                  | RESTful APIs, SOAP                        |
-| Databases and ORM             | MySQL, PostgreSQL, Hibernate              |
-| Message Queue Systems         | RabbitMQ, Apache Kafka                    |
-| Containerization              | Docker, Kubernetes, Podman                |
-| Build Tool                    | Maven, Gradle, Ant                        |
-| Domain-Driven Design (DDD)    | -                                         |
-| Test-Driven Development (TDD) | JUnit, Mockito                            |
-| Software Architecture         | Clean Architecture                        |
-| Version Control               | Git                                       |
-| Security                      | Spring Security, Java Security Frameworks |
-| Performance Optimization      | -                                         |
-| Agile Methodologies           | Jira, Scrum, Kanban                       |
-| Troubleshooting and Debugging | Logs, Debuggers, Monitoring Systems       |
-| Continuous Learning           | -                                         |
+| Skills                        | Tools or Equivalencies                                                                           |
+|-------------------------------|--------------------------------------------------------------------------------------------------|
+| Java Frameworks               | Spring Boot                                                                                      |
+| Web Development               | Servlets, JSP, JSF                                                                               |
+| Web Services                  | RESTful APIs, SOAP                                                                               |
+| Databases and ORM             | **Relational**: MySQL, PostgreSQL, Hibernate <br/> **NoSQL**: MongoDB <br/> **In-memory**: Redis |
+| Message Queue Systems         | RabbitMQ, Apache Kafka                                                                           |
+| Containerization              | Docker, Kubernetes, Podman                                                                       |
+| Build Tool                    | Maven, Gradle, Ant                                                                               |
+| Domain-Driven Design (DDD)    | -                                                                                                |
+| Test-Driven Development (TDD) | JUnit, Mockito                                                                                   |
+| Software Architecture         | Clean Architecture                                                                               |
+| Version Control               | Git                                                                                              |
+| Security                      | Spring Security, Java Security Frameworks                                                        |
+| Performance Optimization      | -                                                                                                |
+| Agile Methodologies           | Jira, Scrum, Kanban                                                                              |
+| Troubleshooting and Debugging | Logs, Debuggers, Monitoring Systems                                                              |
+| Continuous Learning           | -                                                                                                |
 
 ## Responsibilities
 
 ### Junior
 
-### Mid
+* **Coding and implementation**: Writing clean and efficient code following coding standards and best practices.
+* **Bug fixing and troubleshooting**: Identifying and resolving software defects and issues through debugging and problem-solving.
+* **Testing**: Writing and executing unit tests to ensure the quality and reliability of the code.
+* **Learning and skill development**: Actively learning new technologies, frameworks, and programming languages to enhance skills and contribute to the team's growth.
+* **Collaboration**: Working closely with senior developers and team members to understand requirements, provide input, and contribute to discussions.
+* **Documentation**: Documenting code changes, functionalities, and technical processes to facilitate maintenance and knowledge sharing.
+* **Continuous improvement**: Identifying areas of improvement in existing code, processes, and practices, and suggesting solutions to enhance efficiency and performance.
 
-### Senior
+### Mid(in addition to junior responsibilities)
+
+* Architecture and Design: Participating in the design and architecture discussions to ensure scalable, maintainable, and efficient backend solutions.
+* Module Development and Integration: Developing new modules and integrating them into existing systems.
+* Performance Optimization: Analyzing and optimizing code and database queries to improve application performance.
+* API Development: Designing and implementing RESTful APIs and integrating with external systems.
+* Database Management: Managing database schema design, querying, and performance optimization.
+* Mentoring Junior Developers: Assisting and mentoring junior team members by providing guidance, code reviews, and knowledge sharing.
+
+### Senior(in addition to mid-level responsibilities) 
+
+Completely independent
+
+* Technical Leadership: Providing technical guidance, mentoring, and leadership to the development team.
+* Architecture and System Design: Leading the design and architecture discussions, making decisions on technology stack, and ensuring adherence to best practices.
+* Performance and Scalability: Identifying and resolving performance bottlenecks and designing scalable solutions.
+* Security: Ensuring application security by implementing best practices, performing vulnerability assessments, and addressing security concerns.
+* Code Review: Conducting thorough code reviews to ensure code quality, maintainability, and adherence to coding standards.
+* Technical Strategy and Roadmap: Contributing to the technical strategy and roadmap of the project or organization, aligning it with business goals.
+* Collaboration with Stakeholders: Collaborating with product managers, business analysts, and other stakeholders to understand requirements and provide technical insights.
+* Troubleshooting and Production Support: Investigating and resolving complex technical issues in production environments and providing support as needed.
 
 ## Conclusion
 
+Perfil tipo qiagen
+Dejar guiar por sus preguntas, dejar espacio para questions
