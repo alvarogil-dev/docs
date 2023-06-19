@@ -10,7 +10,7 @@
 
 Java is the third most used language according to the [top programming languages](https://octoverse.github.com/2022/top-programming-languages) from [Github Octoverse 2022](https://octoverse.github.com/).
 
-<img src="C:\Users\gian\workspace\docs\top-programming-languages-octoverse-2022.png" width="1000"/>
+<img src="top-programming-languages-octoverse-2022.png" width="1000"/>
 
 Here you can find some reasons why not only [Java is not dead](https://github.com/readme/featured/java-programming-language?utm_source=github&utm_medium=referral&utm_campaign=&scid=&utm_content=octoverse), but it is
 actually ready for the future.
